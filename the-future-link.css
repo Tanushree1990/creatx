@@ -1,0 +1,75 @@
+.thefuturelink-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.thefuturelink-hero {
+  width: 100%;
+  height: 1002px;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://images.unsplash.com/photo-1503149779833-1de50ebe5f8a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE2fHxzd2lzcyUyMGNoZWVzZSUyMHBsYW50fGVufDB8fHx8MTYyNTg0MTU0Mg&ixlib=rb-1.2.1&w=1500');
+  background-position: center;
+}
+.thefuturelink-text {
+  top: 351px;
+  left: 376px;
+  color: var(--dl-color-gray-white);
+  position: absolute;
+  font-size: 3rem;
+  max-width: 450px;
+  text-align: center;
+}
+.thefuturelink-navlink {
+  top: 584px;
+  left: 398px;
+  color: var(--dl-color-gray-white);
+  width: 439px;
+  height: 161px;
+  position: absolute;
+  font-size: 65px;
+  transition: 0.3s;
+  font-family: Merriweather;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-gray-black);
+}
+.thefuturelink-navlink:hover {
+  transform: scale(1.02);
+}
+.thefuturelink-text1 {
+  top: 494px;
+  left: 45px;
+  color: var(--dl-color-gray-white);
+  position: absolute;
+  font-size: 0.75rem;
+  align-self: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+@media(max-width: 767px) {
+  .thefuturelink-hero {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .thefuturelink-hero {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}
